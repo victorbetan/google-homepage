@@ -1,1 +1,1 @@
-# google-homepage
+this is an odin project that will recreate the design of a google website. 

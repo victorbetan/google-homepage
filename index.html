@@ -1,46 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Google Homepage</title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <style>
-        .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
-}
-
-    </style>
+        <title>Google</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <main>
         <header>
-            <div>
+            <div class="left-side-nav">
                 <ul>
                     <li>About</li>
                     <li>Store</li>
                 </ul>
             </div>
-            <div>
+            <div class="right-side-nav">
                 <ul>
                     <li>Gmail</li>
                     <li>Images</li>
@@ -57,6 +30,37 @@
                 </ul>
             </div>
         </header>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"/> 
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"> 
+        <form>
+            <div>
+                <label for="search">
+                    <input type="text" name="search" id="searchBox" placeholder="">
+                </label>
+            </div>
+            <div>
+                <label for="submit">
+                    <input type="button" value="Google Search" name="submit" id="submitBtn">
+                </label>
+                <label for="lucky"> 
+                    <input type="button" value="I'm Feeling Lucky" name="lucky" id="submitBtn">
+                </label>
+            </div>
+        </form>
+        <p>Watch <a href="">Google I/O:</a> building a more helpful google for everyone</p>
+        <footer>
+            <div class="ftr-left">
+                <p>Advertising</p>
+                <p>Business</p>
+                <p>How Search works</p>
+            </div>
+            <div class="ftr-center">
+                <p>Carbon neutral since 2007</p>
+            </div>
+            <div class="ftr-right">
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Settings</p>
+            </div>
+        </footer>
     </main>
 </html>
